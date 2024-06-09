@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif\;;
+}
+
+:root {
+  --success: #28a745;
+  --dark: #212529;
+  --grey: #707070;
+  --light: #ffffff7f;
+  --white: #ffffff;
+}
+
+.navbar {
+  background-color: var(--success) !important ;
+}
+
+.card-text {
+  font-family: "Roboto";
+}
+
+.PN {
+  display: flex;
+  text-decoration: none;
+  color: var(--grey);
+}
+
+.PO {
+  justify-content: flex-end;
+  color: var(--success);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer img {
+  width: 82px;
+  padding-top: 30px;
+}
+
+footer p {
+  color: #707070;
+  font-weight: 100;
+}
+
+.formulario {
+  background-color: #28a745;
+}
